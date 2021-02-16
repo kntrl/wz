@@ -8,13 +8,34 @@ body {
     background-color: #24292e;
 }
 
-.video-player {
+ 
+.container { 
+    width: 80%;
     /* vertical centering */
-    background-color: black;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+
+.jumbotron img {
+    width: 50%;
+}
+
+.video-player {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+
+.video-player iframe{
+    display: inline-block;
     box-shadow: 3px 3px 10px black;
-    
+
+}
+
+.container * {
+    margin: auto;
+    text-align: center;
 }
