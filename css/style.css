@@ -8,34 +8,19 @@ body {
     background-color: #24292e;
 }
 
- 
-.container { 
-    width: 80%;
-    /* vertical centering */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
+.container-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-
-.jumbotron img {
-    width: 50%;
+.logo img {
+    max-width: 320px;
 }
 
-.video-player {
-    width: 100%;
-    display: inline-block;
-    margin: auto;
-}
-
-.video-player iframe{
-    display: inline-block;
-    box-shadow: 3px 3px 10px black;
-
-}
-
-.container * {
-    margin: auto;
-    text-align: center;
+.yt-player iframe {
+    width:100%;
+    
 }
